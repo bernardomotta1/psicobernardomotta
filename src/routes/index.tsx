@@ -465,6 +465,7 @@ section { padding: 6rem 0; }
 
 #sobre { background: var(--beige-light); }
 .sobre-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 5rem; align-items: center; }
+.sobre-grid--single { grid-template-columns: 1fr; max-width: 820px; margin: 0 auto; }
 .sobre-img-wrap { position: relative; }
 .sobre-img { width: 100%; border-radius: 4px; display: block; filter: saturate(0.9); height: auto; }
 .sobre-img-accent { position: absolute; bottom: -20px; right: -20px; width: 180px; height: 180px; background: linear-gradient(135deg, var(--terra) 0%, transparent 70%); border-radius: 4px; z-index: -1; opacity: 0.4; }
