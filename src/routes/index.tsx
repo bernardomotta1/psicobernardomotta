@@ -114,12 +114,7 @@ function Index() {
       {/* SOBRE */}
       <section id="sobre">
         <div className="container">
-          <div className="sobre-grid">
-            <div className="sobre-img-wrap reveal">
-              <img className="sobre-img" src={bernardoPhoto} alt="Bernardo Motta" loading="lazy" width={768} height={1024} />
-              <div className="sobre-img-accent"></div>
-              <div className="sobre-img-tag">Mestrado em Psicologia Clínica</div>
-            </div>
+          <div className="sobre-grid sobre-grid--single">
             <div className="sobre-text reveal">
               <span className="section-tag">Quem Sou</span>
               <h2 className="section-title">
@@ -263,7 +258,7 @@ function Index() {
                 {[
                   { i: "🌐", h: "100% Online, em todo Portugal", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação — especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
                   { i: "🔒", h: "Confidencialidade garantida", p: "Todas as sessões e comunicações estão protegidas pelo sigilo profissional, deontologia da Ordem dos Psicólogos Portugueses e legislação de proteção de dados." },
-                  { i: "👥", h: "Para adultos, adolescentes e jovens adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
+                  { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
                   { i: "📅", h: "Agenda a abrir em junho de 2025", p: "A minha agenda abre para consultas no início de junho. Regista o teu contacto antecipadamente para seres um dos primeiros a receber disponibilidade." },
                 ].map((f) => (
                   <div className="feature-item reveal" key={f.h}>
@@ -470,6 +465,7 @@ section { padding: 6rem 0; }
 
 #sobre { background: var(--beige-light); }
 .sobre-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 5rem; align-items: center; }
+.sobre-grid--single { grid-template-columns: 1fr; max-width: 820px; margin: 0 auto; }
 .sobre-img-wrap { position: relative; }
 .sobre-img { width: 100%; border-radius: 4px; display: block; filter: saturate(0.9); height: auto; }
 .sobre-img-accent { position: absolute; bottom: -20px; right: -20px; width: 180px; height: 180px; background: linear-gradient(135deg, var(--terra) 0%, transparent 70%); border-radius: 4px; z-index: -1; opacity: 0.4; }
