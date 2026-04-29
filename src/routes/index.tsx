@@ -263,7 +263,7 @@ function Index() {
                 {[
                   { i: "🌐", h: "100% Online, em todo Portugal", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação — especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
                   { i: "🔒", h: "Confidencialidade garantida", p: "Todas as sessões e comunicações estão protegidas pelo sigilo profissional, deontologia da Ordem dos Psicólogos Portugueses e legislação de proteção de dados." },
-                  { i: "👥", h: "Para adultos, adolescentes e jovens adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
+                  { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
                   { i: "📅", h: "Agenda a abrir em junho de 2025", p: "A minha agenda abre para consultas no início de junho. Regista o teu contacto antecipadamente para seres um dos primeiros a receber disponibilidade." },
                 ].map((f) => (
                   <div className="feature-item reveal" key={f.h}>
