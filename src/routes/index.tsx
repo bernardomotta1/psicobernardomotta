@@ -114,12 +114,7 @@ function Index() {
       {/* SOBRE */}
       <section id="sobre">
         <div className="container">
-          <div className="sobre-grid">
-            <div className="sobre-img-wrap reveal">
-              <img className="sobre-img" src={bernardoPhoto} alt="Bernardo Motta" loading="lazy" width={768} height={1024} />
-              <div className="sobre-img-accent"></div>
-              <div className="sobre-img-tag">Mestrado em Psicologia Clínica</div>
-            </div>
+          <div className="sobre-grid sobre-grid--single">
             <div className="sobre-text reveal">
               <span className="section-tag">Quem Sou</span>
               <h2 className="section-title">
