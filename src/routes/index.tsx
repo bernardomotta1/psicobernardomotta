@@ -236,7 +236,7 @@ function Index() {
             <div className="area-card reveal">
               <div className="area-icon">💭</div>
               <h3>Ansiedade e Depressão</h3>
-              <p>Frequentemente associados à dor e à doença crónica, a ansiedade e a depressão merecem atenção especializada. Trabalho para que possas recuperar o sentido de controlo, esperança e bem-estar no dia a dia.</p>
+              <p>Frequentemente associadas à dor e à doença crónica, a ansiedade e a depressão merecem atenção especializada. O acompanhamento procura recuperar o sentido de controlo, a esperança e o bem-estar no dia a dia.</p>
             </div>
             <div className="area-card reveal">
               <div className="area-icon">⚡</div>
