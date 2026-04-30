@@ -226,7 +226,7 @@ function Index() {
             <div className="area-card reveal">
               <div className="area-icon">🫀</div>
               <h3>Doenças Crónicas e Saúde</h3>
-              <p>Viver com uma doença crónica implica um processo de adaptação psicológica constante. Acompanho pessoas a lidar com o impacto emocional do diagnóstico, das limitações e das incertezas associadas à doença.</p>
+              <p>Viver com uma doença crónica implica um processo de adaptação psicológica constante. Acompanho quem necessita de apoio para lidar com o impacto emocional do diagnóstico, das limitações e das incertezas associadas à doença.</p>
               <div className="area-conditions">
                 {["Lúpus", "Artrite Reumatoide", "Esclerose Múltipla", "Síndrome de Fadiga Crónica"].map(
                   (t) => <span key={t} className="condition-tag">{t}</span>
