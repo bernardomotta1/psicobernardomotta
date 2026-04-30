@@ -91,6 +91,10 @@ function Index() {
           </div>
         </div>
         <div className="hero-image-col">
+          <div className="hero-photo-badge">
+            <div className="badge-num">100%</div>
+            <div className="badge-label">Atendimento Online</div>
+          </div>
           <div className="hero-photo-wrap">
             <img
               className="hero-photo"
@@ -99,10 +103,6 @@ function Index() {
               width={768}
               height={1024}
             />
-            <div className="hero-photo-badge">
-              <div className="badge-num">100%</div>
-              <div className="badge-label">Atendimento Online</div>
-            </div>
           </div>
         </div>
         <div className="hero-scroll-hint">
