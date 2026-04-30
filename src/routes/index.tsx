@@ -305,9 +305,9 @@ function Index() {
               <h2 className="section-title">Vamos <em>falar?</em></h2>
               <div className="divider"></div>
               <p>
-                Dar o primeiro passo é muitas vezes o mais difícil. Não precisas de ter
-                tudo claro na cabeça, basta uma mensagem. Estou aqui para responder às
-                tuas dúvidas com atenção e sem julgamento.
+                Dar o primeiro passo é, muitas vezes, o mais difícil. Não é necessário ter
+                tudo claro à partida, basta uma mensagem. Estou disponível para responder
+                a qualquer dúvida com atenção e sem julgamento.
               </p>
               <p className="catch-line">Vamos trilhar juntos esse caminho.</p>
               <div className="contact-items">
