@@ -296,25 +296,6 @@ function Index() {
         </div>
       </section>
 
-      {/* AGENDA */}
-      <section id="agenda">
-        <div className="container">
-          <span className="section-tag">Agenda</span>
-          <h2 className="section-title">Consultas a partir<br />de junho de 2025</h2>
-          <div className="divider"></div>
-          <p className="agenda-sub">
-            A agenda estará aberta em breve. Se procuras ferramentas psicológicas para
-            lidar com a dor ou doença crónica, entra em contacto agora para garantires
-            o teu lugar.
-          </p>
-          <div className="agenda-opening">📅 &nbsp; Abertura prevista: Junho 2025</div>
-          <div className="agenda-btns">
-            <a className="agenda-btn" href="https://wa.me/351911028788" target="_blank" rel="noopener noreferrer">Contactar por WhatsApp</a>
-            <a className="agenda-btn-outline" href="mailto:bernardo@ayresdamotta.pt">Enviar Email</a>
-          </div>
-        </div>
-      </section>
-
       {/* CONTACTO */}
       <section id="contacto">
         <div className="container">
@@ -325,9 +306,10 @@ function Index() {
               <div className="divider"></div>
               <p>
                 Dar o primeiro passo é muitas vezes o mais difícil. Não precisas de ter
-                tudo claro na cabeça — basta uma mensagem. Estou aqui para responder às
+                tudo claro na cabeça, basta uma mensagem. Estou aqui para responder às
                 tuas dúvidas com atenção e sem julgamento.
               </p>
+              <p className="catch-line">Vamos trilhar juntos esse caminho.</p>
               <div className="contact-items">
                 <div className="contact-item">
                   <div className="ci-icon">✉️</div>
