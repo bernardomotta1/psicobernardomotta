@@ -274,7 +274,7 @@ function Index() {
             <div>
               <div className="atendimento-cta-box reveal">
                 <h3 className="cta-box-title">Pronto para<br /><em>dar o primeiro passo?</em></h3>
-                <p className="cta-box-sub">Entre em contacto através de qualquer um dos canais abaixo. Respondo a todas as mensagens com a máxima brevidade e discrição.</p>
+                <p className="cta-box-sub">Pode entrar em contacto através de qualquer um dos canais abaixo. Respondo a todas as mensagens com a máxima brevidade e discrição.</p>
                 <div className="cta-options">
                   <a className="cta-option" href="https://wa.me/351911028788" target="_blank" rel="noopener noreferrer">
                     <span className="co-icon">💬</span> WhatsApp — 911 028 788
