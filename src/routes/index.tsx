@@ -67,7 +67,7 @@ function Index() {
         <a href="#areas" onClick={closeMobile}>Áreas</a>
         <a href="#atendimento" onClick={closeMobile}>Atendimento</a>
         <a href="#contacto" onClick={closeMobile}>Contacto</a>
-        <a className="nav-cta" href="#contacto" onClick={closeMobile}>Marcar Consulta</a>
+        <a className="nav-cta" href="#contacto" onClick={closeMobile}>Agendar Consulta</a>
       </div>
 
       {/* HERO */}
