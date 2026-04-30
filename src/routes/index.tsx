@@ -207,10 +207,10 @@ function Index() {
           <h2 className="section-title reveal">Áreas de <em>Atuação</em></h2>
           <div className="divider reveal"></div>
           <p className="areas-intro reveal">
-            O meu foco central são pessoas que convivem diariamente com dor crónica e
+            O meu foco central são as pessoas que convivem diariamente com dor crónica e
             doenças crónicas, uma realidade que vai muito além dos sintomas físicos e
             que afeta profundamente a qualidade de vida, as relações e a identidade de
-            quem vive com ela.
+            quem com ela vive.
           </p>
           <div className="areas-grid">
             <div className="area-card reveal">
