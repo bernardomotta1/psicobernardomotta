@@ -517,6 +517,7 @@ section { padding: 6rem 0; }
 #contacto { background: #fff; }
 .contacto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
 .contacto-info p { color: var(--text-mid); line-height: 1.8; font-size: 0.97rem; margin-bottom: 2rem; font-weight: 300; }
+.catch-line { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.5rem; color: var(--terra); line-height: 1.4; margin-top: -0.5rem; margin-bottom: 2.5rem; }
 .contact-items { display: flex; flex-direction: column; gap: 1rem; }
 .contact-item { display: flex; align-items: center; gap: 1rem; }
 .ci-icon { width: 40px; height: 40px; background: var(--beige-light); border: 1px solid rgba(196,120,90,0.2); border-radius: 2px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
