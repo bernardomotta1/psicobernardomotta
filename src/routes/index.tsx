@@ -329,7 +329,7 @@ function Index() {
                   <div className="ci-icon">🌐</div>
                   <div className="ci-text">
                     <div className="ci-label">Modalidade</div>
-                    Atendimento 100% Online, em todo o Portugal
+                    Atendimento 100% Online
                   </div>
                 </div>
                 <div className="contact-item">
