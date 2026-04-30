@@ -309,7 +309,7 @@ function Index() {
                 tudo claro à partida, basta uma mensagem. Estou disponível para responder
                 a qualquer dúvida com atenção e sem julgamento.
               </p>
-              <p className="catch-line">Vamos trilhar juntos esse caminho.</p>
+              <p className="catch-line">Vamos trilhar, juntos, este caminho.</p>
               <div className="contact-items">
                 <div className="contact-item">
                   <div className="ci-icon">✉️</div>
