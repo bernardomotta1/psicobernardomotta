@@ -51,7 +51,7 @@ function Index() {
           <li><a href="#atendimento">Atendimento</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a className="nav-cta" href="#contacto">Marcar Consulta</a>
+        <a className="nav-cta" href="#contacto">Agendar Consulta</a>
         <div
           className="hamburger"
           onClick={() => setMobileOpen((v) => !v)}
@@ -67,7 +67,7 @@ function Index() {
         <a href="#areas" onClick={closeMobile}>Áreas</a>
         <a href="#atendimento" onClick={closeMobile}>Atendimento</a>
         <a href="#contacto" onClick={closeMobile}>Contacto</a>
-        <a className="nav-cta" href="#contacto" onClick={closeMobile}>Marcar Consulta</a>
+        <a className="nav-cta" href="#contacto" onClick={closeMobile}>Agendar Consulta</a>
       </div>
 
       {/* HERO */}
@@ -82,12 +82,12 @@ function Index() {
             <strong>também sofre</strong>
           </h1>
           <p className="hero-sub">
-            Acompanhamento psicológico especializado para pessoas que vivem com dor crónica
+            Acompanhamento psicológico especializado para quem vive com dor crónica
             e doenças crónicas. Uma abordagem humana, baseada em evidência científica.
           </p>
           <div className="hero-actions">
-            <a className="btn-primary" href="#contacto">Marcar Consulta</a>
-            <a className="btn-secondary" href="#sobre">Conhecer Mais</a>
+            <a className="btn-primary" href="#contacto">Agendar Consulta</a>
+            <a className="btn-secondary" href="#sobre">Saber Mais</a>
           </div>
         </div>
         <div className="hero-image-col">
@@ -129,9 +129,9 @@ function Index() {
               </p>
               <p>
                 A minha especialização nasceu de um interesse profundo pela interligação
-                entre mente e corpo. Vivemos em um mundo onde a medicina ainda tende a
-                separar o que é inseparável: as pessoas com dor crónica ou doenças crónicas
-                não precisam apenas de cuidados físicos, precisam que a sua experiência
+                entre mente e corpo. Vivemos num mundo onde a medicina ainda tende a
+                separar o que é inseparável: quem vive com dor crónica ou doenças crónicas
+                não necessita apenas de cuidados físicos, necessita que a sua experiência
                 emocional, os seus pensamentos e o seu contexto de vida sejam igualmente
                 valorizados.
               </p>
@@ -178,11 +178,11 @@ function Index() {
             {[
               {
                 n: "01", a: "ACT", t: "Terapia de Aceitação e Compromisso",
-                d: "Em vez de lutar contra a dor ou os pensamentos difíceis, aprendemos a relacionarmo-nos com eles de forma diferente, com mais flexibilidade e clareza sobre o que realmente importa para ti. A ACT ajuda-te a viver uma vida com sentido, mesmo quando a dor não desaparece.",
+                d: "Em vez de lutar contra a dor ou contra os pensamentos difíceis, aprendemos a relacionar-nos com eles de forma diferente, com mais flexibilidade e clareza sobre o que verdadeiramente importa. A ACT ajuda a viver uma vida com sentido, mesmo quando a dor não desaparece.",
               },
               {
                 n: "02", a: "TCC", t: "Terapia Cognitivo-Comportamental",
-                d: "Identificamos os padrões de pensamento e comportamento que amplificam o sofrimento, por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos juntos para os transformar.",
+                d: "Identificamos os padrões de pensamento e de comportamento que amplificam o sofrimento, por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos em conjunto para os transformar.",
               },
               {
                 n: "03", a: "TCC-Mindfulness", t: "TCC Baseada em Mindfulness",
@@ -207,16 +207,16 @@ function Index() {
           <h2 className="section-title reveal">Áreas de <em>Atuação</em></h2>
           <div className="divider reveal"></div>
           <p className="areas-intro reveal">
-            O meu foco central são pessoas que convivem diariamente com dor crónica e
+            O meu foco central são as pessoas que convivem diariamente com dor crónica e
             doenças crónicas, uma realidade que vai muito além dos sintomas físicos e
             que afeta profundamente a qualidade de vida, as relações e a identidade de
-            quem vive com ela.
+            quem com ela vive.
           </p>
           <div className="areas-grid">
             <div className="area-card reveal">
               <div className="area-icon">🧠</div>
               <h3>Psicologia da Dor Crónica</h3>
-              <p>A dor crónica não é "só física". O sofrimento emocional, o medo, a fadiga e o isolamento são parte integrante da experiência. Trabalho para ajudar a reconquistar qualidade de vida e autonomia, mesmo com dor presente.</p>
+              <p>A dor crónica não é "só física". O sofrimento emocional, o medo, a fadiga e o isolamento são parte integrante da experiência. Trabalho em conjunto para reconquistar qualidade de vida e autonomia, mesmo com dor presente.</p>
               <div className="area-conditions">
                 {["Fibromialgia", "Dor lombar crónica", "Dor neuropática", "Cefaleia crónica"].map(
                   (t) => <span key={t} className="condition-tag">{t}</span>
@@ -226,7 +226,7 @@ function Index() {
             <div className="area-card reveal">
               <div className="area-icon">🫀</div>
               <h3>Doenças Crónicas e Saúde</h3>
-              <p>Viver com uma doença crónica implica um processo de adaptação psicológica constante. Acompanho pessoas a lidar com o impacto emocional do diagnóstico, das limitações e das incertezas associadas à doença.</p>
+              <p>Viver com uma doença crónica implica um processo de adaptação psicológica constante. Acompanho quem necessita de apoio para lidar com o impacto emocional do diagnóstico, das limitações e das incertezas associadas à doença.</p>
               <div className="area-conditions">
                 {["Lúpus", "Artrite Reumatoide", "Esclerose Múltipla", "Síndrome de Fadiga Crónica"].map(
                   (t) => <span key={t} className="condition-tag">{t}</span>
@@ -236,7 +236,7 @@ function Index() {
             <div className="area-card reveal">
               <div className="area-icon">💭</div>
               <h3>Ansiedade e Depressão</h3>
-              <p>Frequentemente associados à dor e à doença crónica, a ansiedade e a depressão merecem atenção especializada. Trabalho para que possas recuperar o sentido de controlo, esperança e bem-estar no dia a dia.</p>
+              <p>Frequentemente associadas à dor e à doença crónica, a ansiedade e a depressão merecem atenção especializada. O acompanhamento procura recuperar o sentido de controlo, a esperança e o bem-estar no dia a dia.</p>
             </div>
             <div className="area-card reveal">
               <div className="area-icon">⚡</div>
@@ -259,7 +259,7 @@ function Index() {
                 {[
                   { i: "🌐", h: "100% Online", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação, especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
                   { i: "🔒", h: "Confidencialidade garantida", p: "Todas as sessões e comunicações estão protegidas pelo sigilo profissional, deontologia da Ordem dos Psicólogos Portugueses e legislação de proteção de dados." },
-                  { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
+                  { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, às necessidades e ao contexto de cada pessoa." },
                 ].map((f) => (
                   <div className="feature-item reveal" key={f.h}>
                     <div className="feature-icon">{f.i}</div>
@@ -274,7 +274,7 @@ function Index() {
             <div>
               <div className="atendimento-cta-box reveal">
                 <h3 className="cta-box-title">Pronto para<br /><em>dar o primeiro passo?</em></h3>
-                <p className="cta-box-sub">Entre em contacto através de qualquer um dos canais abaixo. Respondo a todas as mensagens com a máxima brevidade e discrição.</p>
+                <p className="cta-box-sub">Pode entrar em contacto através de qualquer um dos canais abaixo. Respondo a todas as mensagens com a máxima brevidade e discrição.</p>
                 <div className="cta-options">
                   <a className="cta-option" href="https://wa.me/351911028788" target="_blank" rel="noopener noreferrer">
                     <span className="co-icon">💬</span> WhatsApp — 911 028 788
@@ -305,11 +305,11 @@ function Index() {
               <h2 className="section-title">Vamos <em>falar?</em></h2>
               <div className="divider"></div>
               <p>
-                Dar o primeiro passo é muitas vezes o mais difícil. Não precisas de ter
-                tudo claro na cabeça, basta uma mensagem. Estou aqui para responder às
-                tuas dúvidas com atenção e sem julgamento.
+                Dar o primeiro passo é, muitas vezes, o mais difícil. Não é necessário ter
+                tudo claro à partida, basta uma mensagem. Estou disponível para responder
+                a qualquer dúvida com atenção e sem julgamento.
               </p>
-              <p className="catch-line">Vamos trilhar juntos esse caminho.</p>
+              <p className="catch-line">Vamos trilhar, juntos, este caminho.</p>
               <div className="contact-items">
                 <div className="contact-item">
                   <div className="ci-icon">✉️</div>
@@ -329,7 +329,7 @@ function Index() {
                   <div className="ci-icon">🌐</div>
                   <div className="ci-text">
                     <div className="ci-label">Modalidade</div>
-                    Atendimento 100% Online — todo Portugal
+                    Atendimento 100% Online, em todo o Portugal
                   </div>
                 </div>
                 <div className="contact-item">
@@ -354,13 +354,13 @@ function Index() {
             </div>
             <div className="contacto-form-note reveal">
               <h3>Como funciona o processo?</h3>
-              <p>Não tens de preencher formulários. A marcação é feita de forma simples e humana:</p>
+              <p>Não é necessário preencher formulários. O agendamento é feito de forma simples e humana:</p>
               <div className="form-steps">
                 {[
-                  ["Entra em contacto", "por WhatsApp, email ou chamada — da forma que for mais confortável para ti."],
-                  ["Respondo em breve", "para perceber o que te trouxe aqui e esclarecer qualquer dúvida que tenhas."],
-                  ["Marcamos uma primeira consulta", "num horário que se adapte à tua disponibilidade, por videochamada."],
-                  ["Começamos o teu processo", "ao teu ritmo, num espaço seguro, confidencial e de acolhimento."],
+                  ["Entre em contacto", "por WhatsApp, email ou chamada, da forma que for mais confortável."],
+                  ["Respondo com brevidade", "para perceber o que o(a) trouxe até aqui e esclarecer qualquer dúvida."],
+                  ["Agendamos a primeira consulta", "num horário que se adapte à sua disponibilidade, por videochamada."],
+                  ["Iniciamos o processo", "ao seu ritmo, num espaço seguro, confidencial e de acolhimento."],
                 ].map(([b, t], i) => (
                   <div className="form-step" key={i}>
                     <div className="step-num">{i + 1}</div>
