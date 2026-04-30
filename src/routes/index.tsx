@@ -75,7 +75,7 @@ function Index() {
         <div className="hero-bg-circle c1"></div>
         <div className="hero-bg-circle c2"></div>
         <div className="hero-content">
-          <div className="hero-tag">Psicólogo Clínico · Online · Portugal</div>
+          <div className="hero-tag">Psicólogo Clínico e da Saúde · Online</div>
           <h1 className="hero-h1">
             Cuidar da mente<br />
             quando o corpo<br />
@@ -123,14 +123,15 @@ function Index() {
               <div className="divider"></div>
               <p>
                 Sou Bernardo Motta, psicólogo clínico com Mestrado em Psicologia Clínica
-                pelo ISPA — Instituto Universitário, a realizar o Ano Profissional Júnior
-                (APJ) pela Ordem dos Psicólogos Portugueses.
+                pelo ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da
+                Vida, a realizar o Ano Profissional Júnior (APJ) pela Ordem dos Psicólogos
+                Portugueses.
               </p>
               <p>
                 A minha especialização nasceu de um interesse profundo pela interligação
-                entre mente e corpo. Vivo num mundo onde a medicina ainda tende a separar
-                o que é inseparável: as pessoas com dor crónica ou doenças crónicas não
-                precisam apenas de cuidados físicos — precisam que a sua experiência
+                entre mente e corpo. Vivemos em um mundo onde a medicina ainda tende a
+                separar o que é inseparável: as pessoas com dor crónica ou doenças crónicas
+                não precisam apenas de cuidados físicos, precisam que a sua experiência
                 emocional, os seus pensamentos e o seu contexto de vida sejam igualmente
                 valorizados.
               </p>
@@ -138,11 +139,11 @@ function Index() {
                 Por isso, a minha prática baseia-se no modelo <strong>biopsicossocial</strong>:
                 uma visão integrada que reconhece que a saúde e o sofrimento resultam da
                 combinação de fatores biológicos, psicológicos e sociais. Não trato
-                diagnósticos — acompanho pessoas.
+                diagnósticos, acompanho pessoas.
               </p>
               <div className="sobre-highlights">
                 {[
-                  { i: "🎓", l: "Formação", v: "Mestrado em Psicologia Clínica — ISPA" },
+                  { i: "🎓", l: "Formação", v: "Mestrado em Psicologia Clínica, ISPA" },
                   { i: "🏥", l: "Membro", v: "Ordem dos Psicólogos Portugueses" },
                   { i: "💻", l: "Modalidade", v: "Consultas 100% Online" },
                   { i: "🌍", l: "Disponibilidade", v: "Todo o território nacional" },
@@ -170,22 +171,22 @@ function Index() {
           <p className="abordagem-intro reveal">
             As abordagens que utilizo em sessão são reconhecidas internacionalmente pela
             sua eficácia no tratamento da dor crónica, doenças crónicas e sofrimento
-            psicológico. Não existe um modelo único — adapto a minha prática a cada
+            psicológico. Não existe um modelo único, adapto a minha prática a cada
             pessoa e ao que faz mais sentido para o seu processo.
           </p>
           <div className="abordagem-grid reveal">
             {[
               {
                 n: "01", a: "ACT", t: "Terapia de Aceitação e Compromisso",
-                d: "Em vez de lutar contra a dor ou os pensamentos difíceis, aprendemos a relacionarmo-nos com eles de forma diferente — com mais flexibilidade e clareza sobre o que realmente importa para ti. A ACT ajuda-te a viver uma vida com sentido, mesmo quando a dor não desaparece.",
+                d: "Em vez de lutar contra a dor ou os pensamentos difíceis, aprendemos a relacionarmo-nos com eles de forma diferente, com mais flexibilidade e clareza sobre o que realmente importa para ti. A ACT ajuda-te a viver uma vida com sentido, mesmo quando a dor não desaparece.",
               },
               {
                 n: "02", a: "TCC", t: "Terapia Cognitivo-Comportamental",
-                d: "Identificamos os padrões de pensamento e comportamento que amplificam o sofrimento — por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos juntos para os transformar.",
+                d: "Identificamos os padrões de pensamento e comportamento que amplificam o sofrimento, por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos juntos para os transformar.",
               },
               {
                 n: "03", a: "TCC-Mindfulness", t: "TCC Baseada em Mindfulness",
-                d: "A atenção plena (mindfulness) integrada na TCC permite desenvolver uma consciência mais compassiva do momento presente. Esta abordagem é especialmente útil para lidar com ciclos de rumination, ansiedade e o desgaste emocional associado à doença crónica.",
+                d: "A atenção plena (mindfulness) integrada na TCC permite desenvolver uma consciência mais compassiva do momento presente. Esta abordagem é especialmente útil para lidar com ciclos de ruminação, ansiedade e o desgaste emocional associado à doença crónica.",
               },
             ].map((c) => (
               <div className="abordagem-card" key={c.n}>
@@ -207,7 +208,7 @@ function Index() {
           <div className="divider reveal"></div>
           <p className="areas-intro reveal">
             O meu foco central são pessoas que convivem diariamente com dor crónica e
-            doenças crónicas — uma realidade que vai muito além dos sintomas físicos e
+            doenças crónicas, uma realidade que vai muito além dos sintomas físicos e
             que afeta profundamente a qualidade de vida, as relações e a identidade de
             quem vive com ela.
           </p>
@@ -256,10 +257,9 @@ function Index() {
               <div className="divider reveal"></div>
               <div className="atendimento-features">
                 {[
-                  { i: "🌐", h: "100% Online, em todo Portugal", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação — especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
+                  { i: "🌐", h: "100% Online", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação, especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
                   { i: "🔒", h: "Confidencialidade garantida", p: "Todas as sessões e comunicações estão protegidas pelo sigilo profissional, deontologia da Ordem dos Psicólogos Portugueses e legislação de proteção de dados." },
                   { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, necessidades e contexto de cada pessoa." },
-                  { i: "📅", h: "Agenda a abrir em junho de 2025", p: "A minha agenda abre para consultas no início de junho. Regista o teu contacto antecipadamente para seres um dos primeiros a receber disponibilidade." },
                 ].map((f) => (
                   <div className="feature-item reveal" key={f.h}>
                     <div className="feature-icon">{f.i}</div>
