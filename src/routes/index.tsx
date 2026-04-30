@@ -335,7 +335,7 @@ function Index() {
                 <div className="contact-item">
                   <div className="ci-icon">🏛️</div>
                   <div className="ci-text">
-                    <div className="ci-label">Membro da OPP</div>
+                    <div className="ci-label">Membro estagiário da OPP</div>
                     Ordem dos Psicólogos Portugueses<br />
                     <span style={{ fontSize: "0.78rem", color: "var(--text-light)" }}>
                       Nº de cédula a adicionar brevemente
