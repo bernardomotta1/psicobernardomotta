@@ -216,7 +216,7 @@ function Index() {
             <div className="area-card reveal">
               <div className="area-icon">🧠</div>
               <h3>Psicologia da Dor Crónica</h3>
-              <p>A dor crónica não é "só física". O sofrimento emocional, o medo, a fadiga e o isolamento são parte integrante da experiência. Trabalho para ajudar a reconquistar qualidade de vida e autonomia, mesmo com dor presente.</p>
+              <p>A dor crónica não é "só física". O sofrimento emocional, o medo, a fadiga e o isolamento são parte integrante da experiência. Trabalho em conjunto para reconquistar qualidade de vida e autonomia, mesmo com dor presente.</p>
               <div className="area-conditions">
                 {["Fibromialgia", "Dor lombar crónica", "Dor neuropática", "Cefaleia crónica"].map(
                   (t) => <span key={t} className="condition-tag">{t}</span>
