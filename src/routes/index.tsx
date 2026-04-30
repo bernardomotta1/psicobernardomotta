@@ -354,13 +354,13 @@ function Index() {
             </div>
             <div className="contacto-form-note reveal">
               <h3>Como funciona o processo?</h3>
-              <p>Não tens de preencher formulários. A marcação é feita de forma simples e humana:</p>
+              <p>Não é necessário preencher formulários. O agendamento é feito de forma simples e humana:</p>
               <div className="form-steps">
                 {[
-                  ["Entra em contacto", "por WhatsApp, email ou chamada — da forma que for mais confortável para ti."],
-                  ["Respondo em breve", "para perceber o que te trouxe aqui e esclarecer qualquer dúvida que tenhas."],
-                  ["Marcamos uma primeira consulta", "num horário que se adapte à tua disponibilidade, por videochamada."],
-                  ["Começamos o teu processo", "ao teu ritmo, num espaço seguro, confidencial e de acolhimento."],
+                  ["Entre em contacto", "por WhatsApp, email ou chamada, da forma que for mais confortável."],
+                  ["Respondo com brevidade", "para perceber o que o(a) trouxe até aqui e esclarecer qualquer dúvida."],
+                  ["Agendamos a primeira consulta", "num horário que se adapte à sua disponibilidade, por videochamada."],
+                  ["Iniciamos o processo", "ao seu ritmo, num espaço seguro, confidencial e de acolhimento."],
                 ].map(([b, t], i) => (
                   <div className="form-step" key={i}>
                     <div className="step-num">{i + 1}</div>
