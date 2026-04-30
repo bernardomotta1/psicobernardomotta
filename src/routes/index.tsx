@@ -178,11 +178,11 @@ function Index() {
             {[
               {
                 n: "01", a: "ACT", t: "Terapia de Aceitação e Compromisso",
-                d: "Em vez de lutar contra a dor ou os pensamentos difíceis, aprendemos a relacionarmo-nos com eles de forma diferente, com mais flexibilidade e clareza sobre o que realmente importa para ti. A ACT ajuda-te a viver uma vida com sentido, mesmo quando a dor não desaparece.",
+                d: "Em vez de lutar contra a dor ou contra os pensamentos difíceis, aprendemos a relacionar-nos com eles de forma diferente, com mais flexibilidade e clareza sobre o que verdadeiramente importa. A ACT ajuda a viver uma vida com sentido, mesmo quando a dor não desaparece.",
               },
               {
                 n: "02", a: "TCC", t: "Terapia Cognitivo-Comportamental",
-                d: "Identificamos os padrões de pensamento e comportamento que amplificam o sofrimento, por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos juntos para os transformar.",
+                d: "Identificamos os padrões de pensamento e de comportamento que amplificam o sofrimento, por exemplo, o catastrofismo da dor ou a evitação de atividades. Através de estratégias práticas e baseadas em evidência, trabalhamos em conjunto para os transformar.",
               },
               {
                 n: "03", a: "TCC-Mindfulness", t: "TCC Baseada em Mindfulness",
