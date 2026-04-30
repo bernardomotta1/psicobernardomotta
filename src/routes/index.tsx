@@ -51,7 +51,7 @@ function Index() {
           <li><a href="#atendimento">Atendimento</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a className="nav-cta" href="#contacto">Marcar Consulta</a>
+        <a className="nav-cta" href="#contacto">Agendar Consulta</a>
         <div
           className="hamburger"
           onClick={() => setMobileOpen((v) => !v)}
