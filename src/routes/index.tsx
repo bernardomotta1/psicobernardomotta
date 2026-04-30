@@ -91,6 +91,10 @@ function Index() {
           </div>
         </div>
         <div className="hero-image-col">
+          <div className="hero-photo-badge">
+            <div className="badge-num">100%</div>
+            <div className="badge-label">Atendimento Online</div>
+          </div>
           <div className="hero-photo-wrap">
             <img
               className="hero-photo"
@@ -99,10 +103,6 @@ function Index() {
               width={768}
               height={1024}
             />
-            <div className="hero-photo-badge">
-              <div className="badge-num">100%</div>
-              <div className="badge-label">Atendimento Online</div>
-            </div>
           </div>
         </div>
         <div className="hero-scroll-hint">
@@ -432,7 +432,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; a
 .hero-photo-wrap { position: relative; width: 380px; }
 .hero-photo-wrap::before { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 280px; height: 420px; background: linear-gradient(180deg, transparent 0%, rgba(196,120,90,0.15) 100%); border-radius: 200px 200px 0 0; z-index: 0; }
 .hero-photo { position: relative; z-index: 1; width: 100%; max-width: 360px; display: block; margin: 0 auto; filter: drop-shadow(0 20px 60px rgba(0,0,0,0.4)); clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 100%, 0% 100%, 0% 15%); height: auto; }
-.hero-photo-badge { position: absolute; bottom: 60px; left: -140px; background: rgba(13,27,53,0.85); backdrop-filter: blur(12px); border: 1px solid rgba(184,196,212,0.2); padding: 1rem 1.4rem; border-radius: 4px; z-index: 3; }
+.hero-photo-badge { position: absolute; bottom: 140px; left: 1.5rem; background: rgba(13,27,53,0.85); backdrop-filter: blur(12px); border: 1px solid rgba(184,196,212,0.2); padding: 1rem 1.4rem; border-radius: 4px; z-index: 3; }
 .hero-photo-badge .badge-num { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 500; color: var(--terra-light); line-height: 1; }
 .hero-photo-badge .badge-label { font-size: 0.68rem; color: var(--silver); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 0.2rem; }
 .hero-scroll-hint { position: absolute; bottom: 2.5rem; left: 8rem; display: flex; align-items: center; gap: 0.8rem; color: var(--text-light); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; animation: fadeUp 1.4s 0.6s ease both; }
