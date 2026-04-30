@@ -129,9 +129,9 @@ function Index() {
               </p>
               <p>
                 A minha especialização nasceu de um interesse profundo pela interligação
-                entre mente e corpo. Vivemos em um mundo onde a medicina ainda tende a
-                separar o que é inseparável: as pessoas com dor crónica ou doenças crónicas
-                não precisam apenas de cuidados físicos, precisam que a sua experiência
+                entre mente e corpo. Vivemos num mundo onde a medicina ainda tende a
+                separar o que é inseparável: quem vive com dor crónica ou doenças crónicas
+                não necessita apenas de cuidados físicos, necessita que a sua experiência
                 emocional, os seus pensamentos e o seu contexto de vida sejam igualmente
                 valorizados.
               </p>
