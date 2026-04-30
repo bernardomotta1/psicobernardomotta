@@ -82,12 +82,12 @@ function Index() {
             <strong>também sofre</strong>
           </h1>
           <p className="hero-sub">
-            Acompanhamento psicológico especializado para pessoas que vivem com dor crónica
+            Acompanhamento psicológico especializado para quem vive com dor crónica
             e doenças crónicas. Uma abordagem humana, baseada em evidência científica.
           </p>
           <div className="hero-actions">
-            <a className="btn-primary" href="#contacto">Marcar Consulta</a>
-            <a className="btn-secondary" href="#sobre">Conhecer Mais</a>
+            <a className="btn-primary" href="#contacto">Agendar Consulta</a>
+            <a className="btn-secondary" href="#sobre">Saber Mais</a>
           </div>
         </div>
         <div className="hero-image-col">
