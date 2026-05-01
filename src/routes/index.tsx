@@ -338,7 +338,7 @@ function Index() {
                     <div className="ci-label">Membro estagiário da OPP</div>
                     Ordem dos Psicólogos Portugueses<br />
                     <span style={{ fontSize: "0.78rem", color: "var(--text-light)" }}>
-                      Nº de cédula a adicionar brevemente
+                      Nº de cédula 136082
                     </span>
                   </div>
                 </div>
