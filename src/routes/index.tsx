@@ -350,6 +350,9 @@ function Index() {
                 <a className="social-btn" href="https://linktr.ee/bernardoayresdamotta" target="_blank" rel="noopener noreferrer">
                   🔗 &nbsp; Linktree
                 </a>
+                <a className="social-btn" href="https://www.linkedin.com/in/bernardo-ayres-da-motta" target="_blank" rel="noopener noreferrer">
+                  💼 &nbsp; LinkedIn
+                </a>
               </div>
             </div>
             <div className="contacto-form-note reveal">
