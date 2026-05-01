@@ -387,8 +387,6 @@ function Index() {
               <a href="#areas">Áreas</a>
               <a href="#atendimento">Atendimento</a>
               <a href="#contacto">Contacto</a>
-              <a href="https://www.instagram.com/psico.bernardomotta" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href="https://www.linkedin.com/in/bernardo-ayres-da-motta" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
           <div className="footer-bottom">
