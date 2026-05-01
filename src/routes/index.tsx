@@ -393,6 +393,7 @@ function Index() {
             <p className="footer-copy">© 2025 Bernardo Motta. Todos os direitos reservados.</p>
             <p className="footer-opp">Membro da Ordem dos Psicólogos Portugueses</p>
           </div>
+          <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora de Saúde (ERS)</strong> sob o número <strong>a adicionar posteriormente</strong>.</p>
         </div>
       </footer>
     </>
@@ -549,6 +550,8 @@ footer { background: var(--navy); padding: 3rem 0 2rem; }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
 .footer-copy { color: var(--text-light); font-size: 0.75rem; letter-spacing: 0.04em; }
 .footer-opp { color: var(--text-light); font-size: 0.72rem; letter-spacing: 0.06em; }
+.footer-ers { color: var(--text-light); font-size: 0.72rem; letter-spacing: 0.04em; margin-top: 1rem; text-align: center; opacity: 0.85; }
+.footer-ers strong { color: var(--silver-light); font-weight: 600; }
 
 .mobile-menu { display: none; position: fixed; top: 60px; left: 0; right: 0; background: rgba(13,27,53,0.97); backdrop-filter: blur(12px); flex-direction: column; align-items: center; padding: 2rem; gap: 1.5rem; z-index: 99; border-bottom: 1px solid rgba(184,196,212,0.1); }
 .mobile-menu.open { display: flex; }
