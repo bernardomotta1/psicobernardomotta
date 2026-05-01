@@ -354,6 +354,7 @@ function Index() {
                   💼 &nbsp; LinkedIn
                 </a>
               </div>
+              <p className="ers-note">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora de Saúde (ERS)</strong> sob o número <strong>a adicionar posteriormente</strong>.</p>
             </div>
             <div className="contacto-form-note reveal">
               <h3>Como funciona o processo?</h3>
