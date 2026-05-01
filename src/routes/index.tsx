@@ -394,7 +394,7 @@ function Index() {
             <p className="footer-copy">© 2025 Bernardo Motta. Todos os direitos reservados.</p>
             <p className="footer-opp">Membro da Ordem dos Psicólogos Portugueses</p>
           </div>
-          <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora de Saúde (ERS)</strong> sob o número <strong>a adicionar posteriormente</strong>.</p>
+          
         </div>
       </footer>
     </>
