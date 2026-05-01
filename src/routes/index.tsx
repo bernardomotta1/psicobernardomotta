@@ -344,7 +344,7 @@ function Index() {
                 </div>
               </div>
               <div className="social-row">
-                <a className="social-btn" href="https://instagram.com/psico.bernardomotta" target="_blank" rel="noopener noreferrer">
+                <a className="social-btn" href="https://www.instagram.com/psico.bernardomotta" target="_blank" rel="noopener noreferrer">
                   📸 &nbsp; @psico.bernardomotta
                 </a>
                 <a className="social-btn" href="https://linktr.ee/bernardoayresdamotta" target="_blank" rel="noopener noreferrer">
@@ -384,7 +384,8 @@ function Index() {
               <a href="#areas">Áreas</a>
               <a href="#atendimento">Atendimento</a>
               <a href="#contacto">Contacto</a>
-              <a href="https://instagram.com/psico.bernardomotta" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.instagram.com/psico.bernardomotta" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.linkedin.com/in/bernardo-ayres-da-motta" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
           <div className="footer-bottom">
