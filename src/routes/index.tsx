@@ -393,7 +393,7 @@ function Index() {
           <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde (ERS)</strong>.</p>
           <div className="footer-bottom">
             <p className="footer-copy">© 2026 Bernardo Motta. Cédula OPP 136082. Todos os direitos reservados.</p>
-            <p className="footer-opp">Membro da Ordem dos Psicólogos Portugueses</p>
+            <p className="footer-opp">Psicólogo Júnior (Membro da Ordem dos Psicólogos Portugueses)</p>
           </div>
           
         </div>
