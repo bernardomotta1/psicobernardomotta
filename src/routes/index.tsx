@@ -550,6 +550,8 @@ footer { background: var(--navy); padding: 3rem 0 2rem; }
 .footer-links a { color: var(--text-light); font-size: 0.78rem; text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.3s; }
 .footer-links a:hover { color: var(--terra-light); }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.footer-ers { text-align: center; color: var(--silver); font-size: 0.78rem; line-height: 1.6; margin: 0 0 1.2rem; opacity: 0.85; }
+.footer-ers strong { color: var(--silver-light); font-weight: 600; }
 .footer-copy { color: var(--text-light); font-size: 0.75rem; letter-spacing: 0.04em; }
 .footer-opp { color: var(--text-light); font-size: 0.72rem; letter-spacing: 0.06em; }
 .ers-note { color: var(--text-light); font-size: 0.78rem; line-height: 1.6; margin-top: 3rem; opacity: 0.85; }
