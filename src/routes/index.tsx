@@ -390,7 +390,7 @@ function Index() {
               <a href="#contacto">Contacto</a>
             </div>
           </div>
-          <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde</strong>.</p>
+          <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde (ERS)</strong>.</p>
           <div className="footer-bottom">
             <p className="footer-copy">© 2025 Bernardo Motta. Todos os direitos reservados.</p>
             <p className="footer-opp">Membro da Ordem dos Psicólogos Portugueses</p>
