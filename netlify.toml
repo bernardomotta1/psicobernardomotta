@@ -1,0 +1,9 @@
+[build]
+  command = "bun run build"
+  publish = ".output/public"
+
+[project.metadata]
+  framework = "tanstack-start"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
