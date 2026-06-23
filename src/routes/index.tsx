@@ -99,7 +99,7 @@ function Index() {
             <img
               className="hero-photo"
               src={bernardoPhoto}
-              alt="Bernardo Motta, Psicólogo Clínico"
+              alt="Bernardo Ayres da Motta, Psicólogo Clínico"
               width={768}
               height={1024}
             />
@@ -118,11 +118,11 @@ function Index() {
             <div className="sobre-text reveal">
               <span className="section-tag">Quem Sou</span>
               <h2 className="section-title">
-                Bernardo Motta,<br /><em>Psicólogo Clínico</em>
+                Bernardo Ayres da Motta,<br /><em>Psicólogo Clínico</em>
               </h2>
               <div className="divider"></div>
               <p>
-                Sou Bernardo Motta, psicólogo clínico com Mestrado em Psicologia Clínica
+                Sou Bernardo Ayres da Motta, psicólogo clínico com Mestrado em Psicologia Clínica
                 pelo ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da
                 Vida, a realizar o Ano Profissional Júnior (APJ) pela Ordem dos Psicólogos
                 Portugueses.
@@ -392,7 +392,7 @@ function Index() {
           </div>
           <p className="footer-ers"><a href="/Certidao_Registo_ERS.pdf" target="_blank" rel="noopener noreferrer">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde (ERS)</strong>.</a></p>
           <div className="footer-bottom">
-            <p className="footer-copy">© 2026 Bernardo Motta. Cédula OPP 136082. Todos os direitos reservados.</p>
+            <p className="footer-copy">© 2026 Bernardo Ayres da Motta. Cédula OPP 136082. Todos os direitos reservados.</p>
             <p className="footer-opp">Psicólogo Júnior (Membro da Ordem dos Psicólogos Portugueses)</p>
           </div>
           
