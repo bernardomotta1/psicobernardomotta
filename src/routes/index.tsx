@@ -381,7 +381,7 @@ function Index() {
       <footer>
         <div className="container">
           <div className="footer-inner">
-            <div className="footer-brand">Bernardo <span>Motta</span> — Psicólogo Clínico</div>
+            <div className="footer-brand">Bernardo <span>Ayres da Motta</span> — Psicólogo Clínico</div>
             <div className="footer-links">
               <a href="#sobre">Sobre</a>
               <a href="#abordagem">Abordagem</a>
