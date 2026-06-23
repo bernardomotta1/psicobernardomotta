@@ -42,7 +42,7 @@ function Index() {
       {/* NAV */}
       <nav id="navbar" style={{ boxShadow: scrolled ? "0 4px 24px rgba(0,0,0,0.3)" : "none" }}>
         <a className="nav-logo" href="#hero">
-          Bernardo Ayres da <span>Motta</span>
+          Bernardo <span>Ayres da Motta</span>
         </a>
         <ul className="nav-links">
           <li><a href="#sobre">Sobre</a></li>
