@@ -390,7 +390,7 @@ function Index() {
               <a href="#contacto">Contacto</a>
             </div>
           </div>
-          <p className="footer-ers"><a href="/Certidao_Registo_ERS.pdf" target="_blank" rel="noopener noreferrer">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde (ERS)</strong>.</a></p>
+          <p className="footer-ers">Estabelecimento de telepsicologia registado na <strong>Entidade Reguladora da Saúde (ERS)</strong> com o número <strong>E182440</strong>.</p>
           <div className="footer-bottom">
             <p className="footer-copy">© 2026 Bernardo Ayres da Motta. Cédula OPP 136082. Todos os direitos reservados.</p>
             <p className="footer-opp">Psicólogo Júnior (Membro da Ordem dos Psicólogos Portugueses)</p>
