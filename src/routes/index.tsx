@@ -146,7 +146,7 @@ function Index() {
                   { i: "🎓", l: "Formação", v: "Mestrado em Psicologia Clínica, ISPA" },
                   { i: "🏥", l: "Membro", v: "Ordem dos Psicólogos Portugueses" },
                   { i: "💻", l: "Modalidade", v: "Consultas 100% Online" },
-                  { i: "🌍", l: "Disponibilidade", v: "Todo o território nacional" },
+                  { i: "🌍", l: "Disponibilidade", v: "Falantes de português em todo o mundo" },
                 ].map((h) => (
                   <div className="highlight-item" key={h.l}>
                     <span className="hi-icon">{h.i}</span>
@@ -257,7 +257,7 @@ function Index() {
               <div className="divider reveal"></div>
               <div className="atendimento-features">
                 {[
-                  { i: "🌐", h: "100% Online", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação, especialmente importantes para quem vive com dor ou fadiga. Disponível para todo o território nacional." },
+                  { i: "🌐", h: "100% Online", p: "As consultas são realizadas por videochamada, eliminando barreiras de deslocação, especialmente importantes para quem vive com dor ou fadiga." },
                   { i: "🔒", h: "Confidencialidade garantida", p: "Todas as sessões e comunicações estão protegidas pelo sigilo profissional, deontologia da Ordem dos Psicólogos Portugueses e legislação de proteção de dados." },
                   { i: "👥", h: "Para adolescentes, jovens adultos e adultos", p: "Acompanho jovens a partir dos 16 anos, jovens adultos e adultos. As sessões são adaptadas à faixa etária, às necessidades e ao contexto de cada pessoa." },
                 ].map((f) => (
